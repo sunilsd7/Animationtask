@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+  font-family: "Outfit", serif;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+
+  transform: rotate(180deg); /* To make the text appear from bottom to top */
+  font-size: 2rem; /* Large font size */
+   height: 25%;
+   
+  
+ 
+  transform: translate(10%, -80%) rotate(180deg);
+}
+
+/* Horizontal Text when clicked */
+.horizontal-text {
+  writing-mode: horizontal-tb;
+  font-size: 1.25rem;
+}
+
+/* Positioning for icons */
+.flex.space-x-4 {
+  display: flex;
+  gap: 1rem;
+}
+.firstheading{
+  color: #1DA077;
+}
+
+@keyframes slideLeftRight {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px); /* Adjust the distance here */
+  }
+}
+
+.arrow-icon {
+  display: inline-block;
+  animation: slideLeftRight 1s ease-in-out infinite;
+  font-size: 24px; /* Adjust size as needed */
+}
+
+
