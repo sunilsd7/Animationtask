@@ -1,10 +1,20 @@
 # React + Vite
- - install npm 
- - instal react-icon
-  -install font outfill from google font 
-  -clone the code 
-  -npm run dev to run code 
 
- The main logic of this project is to create a section with 3 different component and flex them .
- initialize animation when we click it must expand and bg color of the content should be changed and the vertical writting patten should be changed to horizontal after clicking it .
- i have implemented a js file inside Data and named as content.js and mapped it to the home.jsx so that we can use its content
+# Interactive Course Sections with React and Tailwind CSS
+
+
+A responsive web page featuring three interactive course sections that animate on click. The active section becomes larger and rotates, while others shrink. Built with React for state management and Tailwind CSS for styling and animations.
+
+## Features
+
+- Dynamic Resizing**: Click any section to make it larger while others shrink.
+- Rotational Animation**: Active section performs a 360-degree rotation.
+- Smooth Transitions**: Tailwind CSS utilities for fluid animations.
+- Responsive Design**: Works on all screen sizes.
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/interactive-course-sections.git
+   cd interactive-course-sections
