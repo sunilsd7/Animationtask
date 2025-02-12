@@ -1,8 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- install npm
+- instal react-icon
+- install font outfill from google font
+- clone the code
+- npm run dev to run code
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The main logic of this project is to create a section with 3 different component and flex them .
+- initialize animation when we click it must expand and bg color of the content should be changed and the vertical writting patten should be changed to horizontal after clicking it .
+  i have implemented a js file inside Data and named as content.js and mapped it to the home.jsx so that we can use its content

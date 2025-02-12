@@ -7,7 +7,7 @@ import PencilImg from "../assets/pencil.png";
 import VueImg from "../assets/Vuejs.png";
 
 const VerticalTextList = () => {
-  const [activeId, setActiveId] = useState(1); // Activate the first component by default
+  const [activeId, setActiveId] = useState(1);
 
   const toggleOrientation = (id) => {
     setActiveId((prevId) => (prevId === id ? null : id));
@@ -41,7 +41,7 @@ const VerticalTextList = () => {
           {activeId === item.id && (
             <p className="absolute top-2 right-2 text-xl font-semibold text-white flex items-center z-10">
               View all courses{" "}
-              <IoIosArrowRoundForward className="text-4xl  arrow-icon" />
+              <IoIosArrowRoundForward className="text-4xl font-bold arrow-icon" />
             </p>
           )}
 
